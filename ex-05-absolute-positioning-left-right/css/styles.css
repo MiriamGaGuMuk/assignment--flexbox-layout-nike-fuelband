@@ -1,0 +1,23 @@
+*{
+	box-sizing: border-box;
+}
+
+.hero-unit{
+	background-image: url('../images/example-bg-img.png');
+	background-size: cover;
+	padding: 200px 80px;
+	/*
+	RELEVANT CSS
+	position: relative;
+	*/
+}
+
+.hero-unit h1 {
+	/*background: rgba(0,0,0,.7);*/
+	font-family: "Impact", "sans-serif";
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 4px;
+
+}

@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-family: "Baskerville", "Times", serif; 
+}
+
+.hero-splash{
+	background-image: url('https://unsplash.it/1200/900?image=199');
+	background-size: cover;
+	min-height: 300px;
+	text-align: center;
+	padding: 120px;
+	font-size: 36px;
+	color: rgba(0,0,0,.3);
+	text-shadow: #fff 1px 1px 2px;
+}
+
+.so-relative h2{
+	margin: 0;
+}
+
+.rel{
+	color: #8E44AD;
+}
+
+/*Relevant CSS*/
+.so-relative{
+	position: relative;
+	top: -40px;
+	
+	width: 90%;
+	margin: 0 auto;
+	background: #fff;
+	border: #8E44AD solid 3px;
+	padding: 10px;
+}
+
