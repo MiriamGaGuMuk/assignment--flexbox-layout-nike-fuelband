@@ -18,12 +18,16 @@ header.product-label{
 }
 
 .fixed-warning{
-	/*position: fixed;
-	top: 10px;
-	right: 10px;*/
-
+	/* RELEVANT CSS */
+	/* position: fixed -- reference point*/
+	position: fixed;
+	top: 20px; 
+	right: 10px;
+	
 	border: #2574A9 4px solid;
 	background: rgba(137, 196, 244, .95);
+	/* RELEVANT CSS */
+	/* we usually give a fixed width to the fixed position element*/
 	width: 300px;
 	padding: 10px;
 }

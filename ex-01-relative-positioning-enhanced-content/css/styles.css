@@ -10,7 +10,7 @@ body{
 .hero-splash{
 	background-image: url('https://unsplash.it/1200/900?image=199');
 	background-size: cover;
-	min-height: 300px;
+	min-height: 800px;
 	text-align: center;
 	padding: 120px;
 	font-size: 36px;
@@ -26,8 +26,8 @@ body{
 	color: #8E44AD;
 }
 
-/*Relevant CSS*/
 .so-relative{
+	/*position: relative -- Shifts the element 40px up*/
 	position: relative;
 	top: -40px;
 	

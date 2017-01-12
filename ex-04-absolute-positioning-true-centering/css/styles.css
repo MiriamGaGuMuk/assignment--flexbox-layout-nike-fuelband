@@ -6,18 +6,21 @@
 	background-image: url('../images/example-bg.jpeg');
 	background-size: cover;
 	min-height: 600px;
-	/*
-	RELEVANT CSS
+	
+	/* RELEVANT CSS */
+	/* position: relative -- reference point*/
 	position: relative;
-	*/
+
 }
 
 .abs-center-me{
-/*RELEVANT CSS
+  /* RELEVANT CSS */
+  /* position: absolute  -- precise position*/
 	position: absolute;
-	top: 50%; left: 50%;
-	transform: translate(-50%, -50%);
-	*/	
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);;
+
 
 	border: #F27935 4px solid;
 	background: #fff;	

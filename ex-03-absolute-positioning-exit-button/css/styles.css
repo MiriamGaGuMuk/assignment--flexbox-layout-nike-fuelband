@@ -3,7 +3,9 @@
 }
 
 .product{
-	/*position: relative*/
+	/* RELEVANT CSS */
+	/* position: relative -- reference point*/
+	position: relative;
 
 	width: 200px;
 	margin: 40px auto;
@@ -13,8 +15,10 @@
 }
 
 .add-to-cart{
-	/*position: absolute;
-	top: -20px; right: -20px;*/
+	/* RELEVANT CSS */
+  /* position: absolute  -- precise position*/
+	position: absolute;
+	top: -20px; right: -20px;
 
 
 	font-size: 33px;
