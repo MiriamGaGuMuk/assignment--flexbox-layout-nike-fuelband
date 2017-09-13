@@ -20,8 +20,9 @@ Use HTML + CSS to implement the designer's styles on a static web page that repr
   mkdir ~/Documents/muktek/assignments/flexbox-layouts-nike-fuelband
   cd ~/Documents/muktek/flexbox-layouts-nike-fuelband
 
-  # (2) Download the image files
+  # (2) Download the image files and unzip
   curl https://raw.githubusercontent.com/muktek/assignment--flexbox-layout-nike-fuelband/master/project-images.zip > project-images.zip
+  unzip project-images.zip
 
   # (3) Create index.html file and in a 'css' directory, the style.css file
   touch index.html
@@ -44,10 +45,9 @@ Use HTML + CSS to implement the designer's styles on a static web page that repr
   }
   ```
 
-5. Provide a link (`<link rel="stylesheet" href="./css/style.css">`) in the `<head>` of your `index.html` file to your external `style.css` file. When you refresh the page, you should see a yellow background.
+4. Provide a link (`<link rel="stylesheet" href="./css/style.css">`) in the `<head>` of your `index.html` file to your external `style.css` file. When you refresh the page, you should see a yellow background.
 
-
-7. Start writing your HTML + CSS to create the mock up.
+5. Start writing your HTML + CSS to create the mock up.
 
 
 ### Mockup
