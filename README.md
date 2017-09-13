@@ -14,23 +14,38 @@ Use HTML + CSS to implement the designer's styles on a static web page that repr
 
 
 ## Setup Instructions
-1. Create a new folder in your `~/muktek/assignments` directory called `flexbox-layouts-nike-fuelband`
+1. In terminal:
+  ```sh
+  # (1) Create a new directory in `~/Documents/muktek/assignments` called `flexbox-layouts-nike-fuelband` and cd into the project directory
+  mkdir ~/Documents/muktek/assignments/flexbox-layouts-nike-fuelband
+  cd ~/Documents/muktek/flexbox-layouts-nike-fuelband
 
-2. Initialize a git repository in the `flexbox-layouts-nike-fuelband` folder
+  # (2) Download the image files
+  curl https://raw.githubusercontent.com/muktek/assignment--flexbox-layout-nike-fuelband/master/project-images.zip > project-images.zip
 
-3. Create your `index.html` file. Make sure it has the proper `<!DOCTYPE>` declaration and the `<head>` and `<body>`
 
-4. Create a `style.css` external stylesheet file. Make sure it has as the first style rule.
-
-  ```css
-  * {box-sizing: border-box }
   ```
 
-5. Provide a `<link rel="stylesheet" href="........">` in the `<head>` of your `index.html` file to your `style.css` file. Ensure that the two files are connected by changing the `background-color` of the body.
+2. Create your `index.html` file. Make sure it has the proper `<!DOCTYPE>`, proper html format, declaration and the `<head>` and `<body>`
 
-6. Download the [project images file](./project-images.zip). Make sure you move the `.zip` file to your `~/muktek/assignments/flexbox-layouts-nike-fuelband` directory and unzip the images -- `unzip project-images.zip`.
+3. Create a `style.css` external stylesheet file. Make sure all elements have box-sizing border box.
 
-7. Start writing your HTML + CSS.
+  ```css
+  * {
+    box-sizing: border-box
+  }
+
+  /* TEST to confirm .css file is linked. Delete later. */
+  body {
+    background: lightyellow;
+  }
+  ```
+
+5. Provide a link (`<link rel="stylesheet" href="«path to style.css»">`) in the `<head>` of your `index.html` file to your `style.css` file. You can ensure that the two files are connected by changing the `background-color` of the html `body`.
+
+
+7. Start writing your HTML + CSS to create the mock up.
+
 
 ### Mockup
 ![nike flexband layout](./mockups/nike-flexband-layout.png)
