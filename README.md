@@ -16,9 +16,9 @@ Use HTML + CSS to implement the designer's styles on a static web page that repr
 ## Setup Instructions
 1. In terminal:
   ```sh
-  # (1) Create a new directory in `~/Documents/muktek/assignments` called `flexbox-layouts-nike-fuelband` and cd into the project directory
-  mkdir ~/Documents/muktek/assignments/flexbox-layouts-nike-fuelband
-  cd ~/Documents/muktek/flexbox-layouts-nike-fuelband
+  # (1) Create a new directory in `~/muktek/assignments` called `flexbox-layouts-nike-fuelband` and cd into the project directory
+  mkdir ~/muktek/assignments/flexbox-layouts-nike-fuelband
+  cd ~/muktek/flexbox-layouts-nike-fuelband
 
   # (2) Download the image files and unzip
   curl https://raw.githubusercontent.com/muktek/assignment--flexbox-layout-nike-fuelband/master/project-images.zip > project-images.zip
