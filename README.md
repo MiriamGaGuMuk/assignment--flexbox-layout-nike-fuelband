@@ -80,6 +80,3 @@ Click to enlarge.
 Hitting your daily Fuel goal keeps you motivated
 Click to enlarge.
 ```
-
-### Images `.zip` download
-[project images file](./project-images.zip)
